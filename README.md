@@ -5,7 +5,7 @@ It follows the Page Object Model (POM) and uses Cucumber (BDD) for behavior-driv
 
 🏗️ Tech Stack
 
-🏗| Component                 | Technology Used               |
+🏗| Component                 | Technology Used             |
 | ------------------------- | ----------------------------- |
 | **Language**              | Java 21                       |
 | **Automation Tool**       | Selenium WebDriver 4          |
