@@ -1,0 +1,32 @@
+<extentreports>
+    <configuration>
+        <!-- Theme -->
+        <theme>DARK</theme>
+        <!-- or use LIGHT -->
+
+        <!-- Report name and title -->
+        <encoding>utf-8</encoding>
+        <protocol>https</protocol>
+        <reportName>OrangeHRM Automation Execution Report</reportName>
+        <documentTitle>OrangeHRM - Selenium Java Framework</documentTitle>
+
+        <!-- Display order -->
+        <testViewChartLocation>top</testViewChartLocation>
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- Custom CSS for styling -->
+        <css>
+            body { font-family: 'Segoe UI', sans-serif; }
+            .brand-logo { height: 45px; margin-right: 15px; }
+        </css>
+
+        <!-- Add company/project logo -->
+        <js>
+            var logo = document.createElement('img');
+            logo.src = 'https://upload.wikimedia.org/wikipedia/commons/8/8c/OrangeHRM_logo.png';
+            logo.className = 'brand-logo';
+            var brand = document.querySelector('.nav-wrapper .brand-logo');
+            brand.parentNode.insertBefore(logo, brand);
+        </js>
+    </configuration>
+</extentreports>
